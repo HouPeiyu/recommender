@@ -1,0 +1,10 @@
+recenv/
+output/
+__pycache__
+*.json
+.ipynb*
+*.csv
+*.pyc
+.DS_Store
+*/.DS_Store
+recenv/
