@@ -1,6 +1,6 @@
 # Recommender
 
-A coursework for TIETS43 Recommender Systems at University Of Tampere. See the final report [here](report/Report.md).
+A coursework for TIETS43 Recommender Systems at University Of Tampere.
 
 ![A screenshot of web-UI for Recommender](screenshots/recommender-screenshot.png)
 
