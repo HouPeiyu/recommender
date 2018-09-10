@@ -77,7 +77,7 @@ print('')
 print('Saving to {}'.format(to_file))
 
 with open(to_file, 'w') as f:
-    json.dump(data, f, indent=4)
+    json.dump(data, f, indent=2)
 
 print('')
 print('All done.')

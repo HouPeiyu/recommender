@@ -72,12 +72,12 @@ if __name__ == '__main__':
     to_file = os.path.abspath('{}/../output/{}.json'.format(base, user))
     print('Saving to `{}`\n'.format(to_file))
 
-    # Ensure existence of ../output 
+    # Ensure existence of ../output
     if not os.path.exists('./output/'):
         os.mkdir('./output/')
 
     with open(to_file, 'w') as f:
-        json.dump(data, f, indent=4)
+        json.dump(data, f, indent=2)
 
     print('All done.')
     print('')
